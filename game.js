@@ -14,7 +14,7 @@ let words = [
 ]
 
 $(document).ready(function () {
-    fillBlanks();
+   
 })
 
 function fillBlanks() {
@@ -66,13 +66,7 @@ function fillBlanks() {
             
         }
        
-        if (life > 0 && correctGuess!=true && gameOver!=true) {           
-            life = life - 1
-            $("#life").text(life)
-        }
-        else if (life == 0) {
-            $("#result").text("You Lost!!")
-        }
+       
     })
 }
 
